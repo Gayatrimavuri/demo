@@ -9,6 +9,7 @@ public class EmpController {
 @RequestMapping("/test")
 public String Test()
 {
+System.out.println("Hello");
 return "Test";	
 }
 }
